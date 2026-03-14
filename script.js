@@ -31,7 +31,14 @@ const app = {
             },
             {
                 name: "CHƯƠNG III: MARKETING ĐIỆN TỬ",
-                modules: []
+                modules: [
+                    { name: "Tiết 1: Bản chất của Marketing Điện tử", file: "DB/Chuong_3_Tiet_1.csv?v=1", video: "Video/Chuong_3_Tiet_1/index.html", slide: "Video/Chuong_3_Tiet_1/Phần 1_Digital_Marketing_Mindset.pdf" },
+                    { name: "Tiết 2: Hành vi Người tiêu dùng trực tuyến", file: "DB/Chuong_3_Tiet_2.csv?v=1", video: "Video/Chuong_3_Tiet_2/index.html", slide: "Video/Chuong_3_Tiet_2/Phần 2_Digital_Behavior_Blueprint.pdf" },
+                    { name: "Tiết 3: Nghiên cứu thị trường điện tử", file: "DB/Chuong_3_Tiet_3.csv?v=1", video: "Video/Chuong_3_Tiet_3/index.html", slide: "Video/Chuong_3_Tiet_3/Phần 3_Decoding_Digital_Footprints.pdf" },
+                    { name: "Tiết 4: Công cụ Digital Marketing", file: "DB/Chuong_3_Tiet_4.csv?v=1", video: "Video/Chuong_3_Tiet_4/index.html", slide: "Video/Chuong_3_Tiet_4/Phần 4_The_Digital_Marketing_Arsenal.pdf" },
+                    { name: "Tiết 5: Email, Mobile và Affiliate Marketing", file: "DB/Chuong_3_Tiet_5.csv?v=1", video: "Video/Chuong_3_Tiet_5/index.html", slide: "Video/Chuong_3_Tiet_5/Phần 5_Marketing_Mission_Control.pdf" },
+                    { name: "Tiết 6: Đo lường hiệu quả Marketing điện tử", file: "DB/Chuong_3_Tiet_6.csv?v=1", video: "Video/Chuong_3_Tiet_6/index.html", slide: "Video/Chuong_3_Tiet_6/Phần 6_E-Marketing_Analytics.pdf" }
+                ]
             },
             {
                 name: "CHƯƠNG IV: AN TOÀN THÔNG TIN TRONG THƯƠNG MẠI ĐIỆN TỬ",
