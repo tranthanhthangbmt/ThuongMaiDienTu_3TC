@@ -1,0 +1,1 @@
+Tạo slide thuyết trình Tiết 3/3 của Chương 4. Bám sát nội dung trong tài liệu sau để làm nội dung trên từng slide "nôi dung slide Chương 4_Tiết 3.md". Nhớ ghi số thứ tự tiết ở slide đầu tiên.
