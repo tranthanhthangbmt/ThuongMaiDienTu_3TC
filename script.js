@@ -42,7 +42,11 @@ const app = {
             },
             {
                 name: "CHƯƠNG IV: AN TOÀN THÔNG TIN TRONG THƯƠNG MẠI ĐIỆN TỬ",
-                modules: []
+                modules: [
+                    { name: "Tiết 1: Các mối đe dọa an ninh mạng", file: "DB/Chuong_4_Tiet_1.csv?v=1", video: "Video/Chuong_4_Tiet_1/index.html" },
+                    { name: "Tiết 2: Bảo vệ dữ liệu và Quyền riêng tư", file: "DB/Chuong_4_Tiet_2.csv?v=1", video: "Video/Chuong_4_Tiet_2/index.html" },
+                    { name: "Tiết 3: Sức khỏe số và Công dân số", file: "DB/Chuong_4_Tiet_3.csv?v=1", video: "Video/Chuong_4_Tiet_3/index.html" }
+                ]
             },
             {
                 name: "CHƯƠNG V: ỨNG DỤNG THƯƠNG MẠI ĐIỆN TỬ TRONG DOANH NGHIỆP",
