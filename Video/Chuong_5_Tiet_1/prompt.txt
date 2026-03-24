@@ -1,0 +1,5 @@
+Tạo slide thuyết trình Tiết 1/3 của Chương 5: ỨNG DỤNG THƯƠNG MẠI ĐIỆN TỬ TRONG DOANH NGHIỆP. Bám sát nội dung trong tài liệu sau để làm nội dung trên từng slide "nd_slide_Chương 5_Tiết 1.md". Nhớ ghi số thứ tự tiết ở slide đầu tiên. Tổng số slide là 15 slide bám thật sát trong file md trên.
+
++++++++++++++++++
+
+Tạo infographic Tiết 1/3 của Chương 5: ỨNG DỤNG THƯƠNG MẠI ĐIỆN TỬ TRONG DOANH NGHIỆP. Bám sát nội dung trong tài liệu sau để làm nội dung trên từng slide "nd_slide_Chương 5_Tiết 1.md". Nhớ ghi số thứ tự tiết ở phần tiêu đề.
