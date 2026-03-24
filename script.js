@@ -50,7 +50,11 @@ const app = {
             },
             {
                 name: "CHƯƠNG V: ỨNG DỤNG THƯƠNG MẠI ĐIỆN TỬ TRONG DOANH NGHIỆP",
-                modules: []
+                modules: [
+                    { name: "Tiết 1: Khái niệm và nhận diện lỗi", file: "DB/Chuong_5_Tiet_1.csv?v=1", video: "Video/Chuong_5_Tiet_1/index.html" },
+                    { name: "Tiết 2: Công cụ và quy trình khắc phục sự cố", file: "DB/Chuong_5_Tiet_2.csv?v=1", video: "Video/Chuong_5_Tiet_2/index.html" },
+                    { name: "Tiết 3: Kỹ năng tìm kiếm và đánh giá tài liệu", file: "DB/Chuong_5_Tiet_3.csv?v=1", video: "Video/Chuong_5_Tiet_3/index.html" }
+                ]
             }
         ]
     },
