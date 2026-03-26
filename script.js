@@ -521,7 +521,7 @@ const app = {
                 document.getElementById('loading').classList.add('hidden');
                 if (results.errors.length > 0) {
                     console.error("CSV Errors:", results.errors);
-                    alert("Có lỗi khi đọc file dữ liệu. Vui lòng kiểm tra console.");
+                    alert("Lỗi CSV chi tiết:\n" + JSON.stringify(results.errors[0], null, 2));
                     return;
                 }
                 this.processData(results.data);
