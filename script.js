@@ -2,6 +2,12 @@ const app = {
     config: {
         chapters: [
             {
+                name: "🌟 ÔN TẬP TỔNG HỢP 🌟",
+                modules: [
+                    { name: "Tổng hợp toàn bộ kiến thức", file: "DB/Tong_hop_toan_bo.csv?v=1" }
+                ]
+            },
+            {
                 name: "CHƯƠNG I: TỔNG QUAN VỀ THƯƠNG MẠI ĐIỆN TỬ",
                 modules: [
                     { name: "Tiết 1: Khái niệm và Tiếp cận", file: "DB/TMDT_Chuong1/Chương_1_Tiết 1_Khái niệm và Tiếp cận.csv?v=1", video: "Video/Chuong_1_Tiet_1/index.html" },
@@ -382,10 +388,16 @@ const app = {
 
     showTestSetup: function () {
         const container = document.getElementById('test-module-list');
-        container.innerHTML = '';
+        container.innerHTML = `
+            <div class="flex items-center mt-2 mb-4 pb-4 border-b">
+                <input type="checkbox" id="check-all-modules" class="w-5 h-5 text-primary border-gray-300 rounded focus:ring-primary" onclick="app.toggleAllModules(this.checked)">
+                <label for="check-all-modules" class="ml-3 font-bold text-primary cursor-pointer select-none">Chọn tất cả bài học</label>
+            </div>
+        `;
 
         let flatIndex = 0;
         this.config.chapters.forEach((chap, cIdx) => {
+            if (cIdx === 0) return; // Skip "Ôn tập tổng hợp" from being a checkbox
             if (chap.modules.length === 0) return;
 
             const chapHeader = document.createElement('h4');
@@ -410,9 +422,15 @@ const app = {
         document.getElementById('header-title').textContent = 'Tạo Đề Kiểm Tra';
     },
 
+    toggleAllModules: function (isChecked) {
+        document.querySelectorAll('input[id^="mod-check-"]').forEach(cb => {
+            cb.checked = isChecked;
+        });
+    },
+
     startCustomTest: async function () {
         const selectedValues = [];
-        document.querySelectorAll('input[type="checkbox"]:checked').forEach(cb => {
+        document.querySelectorAll('input[id^="mod-check-"]:checked').forEach(cb => {
             selectedValues.push(cb.value); // "cIdx,mIdx"
         });
 
